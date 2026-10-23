@@ -1,0 +1,183 @@
+Script started on 2026-10-22 21:51:20-05:00 [TERM="xterm-256color" TTY="/dev/cons0" COLUMNS="158" LINES="28"]
+[?2004hsh-5.2$ exitjava assignment6[C[C[C[C[C[C[C[Cexit[Kjava assignment5[C[C[C[C[C[C[C[Cexit[Kjava assignment6[C[C[C[C[C[C[C[Cexit[K[K[7mpython CSCI460F2026_Programming_Assignment1_Wenker.py   [27m[C[C[C[C[C[C[C[Cpython CSCI460F2026_Programming_Assignment1_Wenker.py   
+[?2004l[6n[6n[?9001h[?1004h[m[?25h   age           job  marital  education default  balance housing loan  contact  day month  duration  campaign  pdays  previous poutcome   y
+0   58    management  married   tertiary      no     2143     yes   no  unknown    5   may       261         1     -1         0  unknown  no
+1   44    technician   single  secondary      no       29     yes   no  unknown    5   may       151         1     -1         0  unknown  no
+2   33  entrepreneur  married  secondary      no        2     yes  yes  unknown    5   may        76         1     -1         0  unknown  no
+3   47   blue-collar  married    unknown      no     1506     yes   no  unknown    5   may        92         1     -1         0  unknown  no
+4   33       unknown   single    unknown      no        1      no   no  unknown    5   may       198         1     -1         0  unknown  no
+(45211, 17)
+age          False
+job          False
+marital      False
+education    False
+default      False
+balance      False
+housing      False
+loan         False
+contact      False
+day          False
+month        False
+duration     False
+campaign     False
+pdays        False
+previous     False
+poutcome     False
+y            False
+dtype: bool
+   age  job  marital  education  default  balance  housing  loan  contact  day  month  duration  campaign  pdays  previous  poutcome  y
+0   58    3        0          3        0     2143        1     0        0    5      5       261         1     -1         0         0  0
+1   44   10        2          1        0       29        1     0        0    5      5       151         1     -1         0         0  0
+2   33    5        0          1        0        2        1     1        0    5      5        76         1     -1         0         0  0
+3   47    7        0          0        0     1506        1     0        0    5      5        92         1     -1         0         0  0
+4   33    1        2          0        0        1        0     0        0    5      5       198         1     -1         0         0  0
+age          False
+job          False
+marital      False
+education    False
+default      False
+balance      False
+housing      False
+loan         False
+contact      False
+day          False
+month        False
+duration     False
+campaign     False
+pdays        False
+previous     False
+poutcome     False
+y            False
+dtype: bool
+(45211, 16)
+(45211,)
+Iteration 1: Accuracy = 0.8254202300206429, F1 Score = 0.8413978158251261
+Iteration 2: Accuracy = 0.8204806841639635, F1 Score = 0.8367136088287264
+Iteration 3: Accuracy = 0.8249041580654675, F1 Score = 0.8402158871694557
+Iteration 4: Accuracy = 0.8232084930698909, F1 Score = 0.8388410852247675
+Iteration 5: Accuracy = 0.8205544087289885, F1 Score = 0.8376942898145827
+Iteration 6: Accuracy = 0.8279268652314952, F1 Score = 0.8428048205861719
+Iteration 7: Accuracy = 0.8196697139486877, F1 Score = 0.83669098165049
+Iteration 8: Accuracy = 0.8314656443526983, F1 Score = 0.8451723562587065
+Iteration 9: Accuracy = 0.8198171630787379, F1 Score = 0.8363598643980574
+Iteration 10: Accuracy = 0.8230610439398408, F1 Score = 0.8381703669376921
+Accuracy saved: [0.82542023 0.82048068 0.82490416 0.82320849 0.82055441 0.82792687
+ 0.81966971 0.83146564 0.81981716 0.82306104]
+F1 saved: [0.84139782 0.83671361 0.84021589 0.83884109 0.83769429 0.84280482
+ 0.83669098 0.84517236 0.83635986 0.83817037]
+Mean Accuracy: 0.8236508404600412
+Mean F1 Score: 0.8394061076693777
+Standard Deviation of Accuracy: 0.003671305684395911
+Standard Deviation of F1 Score: 0.0027946591878332747
+Training Size 0.1: Iteration 1: Accuracy = 0.832071762103711, F1 Score = 0.846280692688289
+Training Size 0.1: Iteration 2: Accuracy = 0.8248218235438682, F1 Score = 0.8403583773852064
+Training Size 0.1: Iteration 3: Accuracy = 0.8200049152125829, F1 Score = 0.8358789524134312
+Training Size 0.1: Iteration 4: Accuracy = 0.8235930203981322, F1 Score = 0.8396809926780023
+Training Size 0.1: Iteration 5: Accuracy = 0.8187761120668469, F1 Score = 0.8365075105885255
+Training Size 0.1: Iteration 6: Accuracy = 0.8248218235438682, F1 Score = 0.8390623949175305
+Training Size 0.1: Iteration 7: Accuracy = 0.8202752519046449, F1 Score = 0.8359857843995528
+Training Size 0.1: Iteration 8: Accuracy = 0.8255345293683952, F1 Score = 0.8417942256994249
+Training Size 0.1: Iteration 9: Accuracy = 0.8188744163185058, F1 Score = 0.8360763052859854
+Training Size 0.1: Iteration 10: Accuracy = 0.8194888178913738, F1 Score = 0.8358939558938359
+Training Size 0.2: Iteration 1: Accuracy = 0.8113577925848102, F1 Score = 0.8299672524979018
+Training Size 0.2: Iteration 2: Accuracy = 0.8258176891813431, F1 Score = 0.8414592184447521
+Training Size 0.2: Iteration 3: Accuracy = 0.8219193231773065, F1 Score = 0.8379158571186259
+Training Size 0.2: Iteration 4: Accuracy = 0.8211451795736681, F1 Score = 0.8367299688329037
+Training Size 0.2: Iteration 5: Accuracy = 0.8293289833835605, F1 Score = 0.8420555138458666
+Training Size 0.2: Iteration 6: Accuracy = 0.8282230639497913, F1 Score = 0.84249669180372
+Training Size 0.2: Iteration 7: Accuracy = 0.8302413669164201, F1 Score = 0.8439797335789504
+Training Size 0.2: Iteration 8: Accuracy = 0.8290801515109624, F1 Score = 0.8432875828155538
+Training Size 0.2: Iteration 9: Accuracy = 0.8317343581520086, F1 Score = 0.844508511817335
+Training Size 0.2: Iteration 10: Accuracy = 0.817191517597943, F1 Score = 0.8350429133212459
+Training Size 0.3: Iteration 1: Accuracy = 0.823337967644085, F1 Score = 0.8385993099233453
+Training Size 0.3: Iteration 2: Accuracy = 0.8228008088978767, F1 Score = 0.8386393215599732
+Training Size 0.3: Iteration 3: Accuracy = 0.829752275025278, F1 Score = 0.8427727529662913
+Training Size 0.3: Iteration 4: Accuracy = 0.8236539433771486, F1 Score = 0.8385044716594162
+Training Size 0.3: Iteration 5: Accuracy = 0.829404701718908, F1 Score = 0.8443634084662993
+Training Size 0.3: Iteration 6: Accuracy = 0.8274772497472194, F1 Score = 0.8425436345660282
+Training Size 0.3: Iteration 7: Accuracy = 0.823337967644085, F1 Score = 0.8385993099233453
+Training Size 0.3: Iteration 8: Accuracy = 0.8246650657229525, F1 Score = 0.8413514791807872
+Training Size 0.3: Iteration 9: Accuracy = 0.8299102628918099, F1 Score = 0.844802673700672
+Training Size 0.3: Iteration 10: Accuracy = 0.8322800808897877, F1 Score = 0.846049479844611
+Training Size 0.4: Iteration 1: Accuracy = 0.8205846573524532, F1 Score = 0.8365543956748132
+Training Size 0.4: Iteration 2: Accuracy = 0.8274044310096952, F1 Score = 0.8419206404874824
+Training Size 0.4: Iteration 3: Accuracy = 0.8261142035610277, F1 Score = 0.8402397022004229
+Training Size 0.4: Iteration 4: Accuracy = 0.8210638846905297, F1 Score = 0.837183087942629
+Training Size 0.4: Iteration 5: Accuracy = 0.8239392487189885, F1 Score = 0.8394987259422118
+Training Size 0.4: Iteration 6: Accuracy = 0.8214325211044347, F1 Score = 0.8379479820655875
+Training Size 0.4: Iteration 7: Accuracy = 0.8220960666494637, F1 Score = 0.8379775510661416
+Training Size 0.4: Iteration 8: Accuracy = 0.817598702399823, F1 Score = 0.8348592390880408
+Training Size 0.4: Iteration 9: Accuracy = 0.8216168393113872, F1 Score = 0.8372274566941803
+Training Size 0.4: Iteration 10: Accuracy = 0.8279573856305525, F1 Score = 0.8429481524332196
+Training Size 0.5: Iteration 1: Accuracy = 0.8155356984871273, F1 Score = 0.8337599606872569
+Training Size 0.5: Iteration 2: Accuracy = 0.8269928337609485, F1 Score = 0.8410384342113499
+Training Size 0.5: Iteration 3: Accuracy = 0.8278333185879855, F1 Score = 0.8433074930163139
+Training Size 0.5: Iteration 4: Accuracy = 0.8276563744138724, F1 Score = 0.8418039427714565
+Training Size 0.5: Iteration 5: Accuracy = 0.8269485977174201, F1 Score = 0.8416406080366081
+Training Size 0.5: Iteration 6: Accuracy = 0.8280544988056269, F1 Score = 0.843286737364396
+Training Size 0.5: Iteration 7: Accuracy = 0.8176590285764841, F1 Score = 0.8346362630615767
+Training Size 0.5: Iteration 8: Accuracy = 0.8192072900999735, F1 Score = 0.8359234680483464
+Training Size 0.5: Iteration 9: Accuracy = 0.8256215164115721, F1 Score = 0.8408098136046483
+Training Size 0.5: Iteration 10: Accuracy = 0.8291603998938335, F1 Score = 0.8438221087384453
+Training Size 0.6: Iteration 1: Accuracy = 0.8290848769698645, F1 Score = 0.8429545467038639
+Training Size 0.6: Iteration 2: Accuracy = 0.8298589991705834, F1 Score = 0.8447918280051004
+Training Size 0.6: Iteration 3: Accuracy = 0.8257672103953553, F1 Score = 0.8404605468829512
+Training Size 0.6: Iteration 4: Accuracy = 0.8195189383466962, F1 Score = 0.8360496498051043
+Training Size 0.6: Iteration 5: Accuracy = 0.8301354713851258, F1 Score = 0.8448030030583071
+Training Size 0.6: Iteration 6: Accuracy = 0.8240530826651922, F1 Score = 0.840397184620146
+Training Size 0.6: Iteration 7: Accuracy = 0.8262648603815317, F1 Score = 0.8418531092170353
+Training Size 0.6: Iteration 8: Accuracy = 0.8275366325684269, F1 Score = 0.8424974016757927
+Training Size 0.6: Iteration 9: Accuracy = 0.8211777716339508, F1 Score = 0.8371430137808433
+Training Size 0.6: Iteration 10: Accuracy = 0.8233342549073818, F1 Score = 0.8396019429265702
+Training Size 0.7: Iteration 1: Accuracy = 0.8260837511058685, F1 Score = 0.8413708686375029
+Training Size 0.7: Iteration 2: Accuracy = 0.8270421704511943, F1 Score = 0.8426944719284183
+Training Size 0.7: Iteration 3: Accuracy = 0.8152462400471837, F1 Score = 0.8335792759759721
+Training Size 0.7: Iteration 4: Accuracy = 0.8228398702447656, F1 Score = 0.8390149380877402
+Training Size 0.7: Iteration 5: Accuracy = 0.8173105278678856, F1 Score = 0.8340037378190391
+Training Size 0.7: Iteration 6: Accuracy = 0.8218077263344147, F1 Score = 0.8382063895491529
+Training Size 0.7: Iteration 7: Accuracy = 0.8219551754644647, F1 Score = 0.8378180334329639
+Training Size 0.7: Iteration 8: Accuracy = 0.8281480389265703, F1 Score = 0.8426772576400148
+Training Size 0.7: Iteration 9: Accuracy = 0.8282954880566205, F1 Score = 0.8422463655167413
+Training Size 0.7: Iteration 10: Accuracy = 0.82217634915954, F1 Score = 0.838682095369023
+Training Size 0.8: Iteration 1: Accuracy = 0.8251686387260865, F1 Score = 0.8410098709046313
+Training Size 0.8: Iteration 2: Accuracy = 0.8226252349883888, F1 Score = 0.8378805936051926
+Training Size 0.8: Iteration 3: Accuracy = 0.8204135795643038, F1 Score = 0.8372883805911673
+Training Size 0.8: Iteration 4: Accuracy = 0.8200818312506911, F1 Score = 0.8368144283313694
+Training Size 0.8: Iteration 5: Accuracy = 0.8276014596925799, F1 Score = 0.8428779454134377
+Training Size 0.8: Iteration 6: Accuracy = 0.8200818312506911, F1 Score = 0.8359439050161163
+Training Size 0.8: Iteration 7: Accuracy = 0.8216299900475506, F1 Score = 0.8380257954437651
+Training Size 0.8: Iteration 8: Accuracy = 0.8252792214972907, F1 Score = 0.8415472379794298
+Training Size 0.8: Iteration 9: Accuracy = 0.8309189428287073, F1 Score = 0.8463503606047756
+Training Size 0.8: Iteration 10: Accuracy = 0.8212982417339378, F1 Score = 0.8373521366776477
+Training Size 0.9: Iteration 1: Accuracy = 0.8177797434763379, F1 Score = 0.8333685849575517
+Training Size 0.9: Iteration 2: Accuracy = 0.8122512162759841, F1 Score = 0.8287829971378615
+Training Size 0.9: Iteration 3: Accuracy = 0.8166740380362671, F1 Score = 0.8337043169376028
+Training Size 0.9: Iteration 4: Accuracy = 0.8255196815568333, F1 Score = 0.8412719027581875
+Training Size 0.9: Iteration 5: Accuracy = 0.8319327731092437, F1 Score = 0.8458411255421133
+Training Size 0.9: Iteration 6: Accuracy = 0.8250773993808049, F1 Score = 0.839594257854457
+Training Size 0.9: Iteration 7: Accuracy = 0.8290579389650597, F1 Score = 0.8433247173244977
+Training Size 0.9: Iteration 8: Accuracy = 0.820875718708536, F1 Score = 0.8374770671430553
+Training Size 0.9: Iteration 9: Accuracy = 0.832375055285272, F1 Score = 0.8470971151618543
+Training Size 0.9: Iteration 10: Accuracy = 0.8191065900044229, F1 Score = 0.8360274014686228
+10% training split: accuracy mean = 0.8228262472351929, std = 0.003987397856336056
+10% training split: f1 mean = 0.8387519191949784, std = 0.0032518919670925096
+20% training split: accuracy mean = 0.8246039426027814, std = 0.006238043069343733
+20% training split: f1 mean = 0.8397443244076855, std = 0.004462878786373931
+30% training split: accuracy mean = 0.8266620323559151, std = 0.0033150297038747807
+30% training split: f1 mean = 0.841622584179077, std = 0.002763513494400549
+40% training split: accuracy mean = 0.8229807940428355, std = 0.0031383929890946767
+40% training split: f1 mean = 0.838635693359473, std = 0.002372731517011314
+50% training split: accuracy mean = 0.8244669556754843, std = 0.004733440626279941
+50% training split: f1 mean = 0.8400028829540398, std = 0.0035826862814071526
+60% training split: accuracy mean = 0.8256732098424109, std = 0.0034508384237996515
+60% training split: f1 mean = 0.8410552226675714, std = 0.002785530932500667
+70% training split: accuracy mean = 0.8230905337658507, std = 0.004195465425389252
+70% training split: f1 mean = 0.8390293433956568, std = 0.0031590770350931894
+80% training split: accuracy mean = 0.8235098971580227, std = 0.003461435048012474
+80% training split: f1 mean = 0.8395090654567532, std = 0.003145893631825308
+90% training split: accuracy mean = 0.8230650154798763, std = 0.00646129454227656
+90% training split: f1 mean = 0.8386489486285804, std = 0.005573595562370044
+[?2004h[?9001l[?1004lsh-5.2$ exit
+[?2004lexit
+
+Script done on 2026-10-22 21:52:01-05:00 [COMMAND_EXIT_CODE="0"]
